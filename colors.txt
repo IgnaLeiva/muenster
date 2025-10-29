@@ -1,0 +1,8 @@
+#https://quarto.org/docs/output-formats/html-themes.html
+
+# These are the color used by the university
+#ededed
+#70789a
+#7ab51d
+#006e89
+#003866

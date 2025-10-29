@@ -1,0 +1,41 @@
+---
+title: "Praktikum"
+---
+
+We will use data from the [NHANES (National Health and Nutrition Examination Survey)](https://wwwn.cdc.gov/nchs/nhanes/) for the years 1999–2003. NHANES is a cross-sectional study based on a random sample designed to describe the health status of the U.S. population. We restrict the analysis to individuals aged 30 to 85 years.
+
+The data are stored in a file named `nhanes30.sav.`
+
+
+::: {.callout-tip}
+## .sav?
+
+`.sav` extension indicates an SPSS file, which contains the observed data, variable descriptions, and metadata.
+:::
+
+
+### Variable descriptions
+
+| **Variablenname** | **Bedeutung** | **Ausprägungen** |
+|:------------------|:--------------|:-----------------|
+| SEQN | Probandennummer |  |
+| nteeth | Anzahl der natürlichen Zähne | 0–32 |
+| cal_mean | Mittlerer Attachmentverlust | mm |
+| perio | Parodontitis (CDC–AAP Definition, Eke et al. 2012) | 1=None, 2=Mild, 3=Moderate, 4=Severe |
+| perio2 | Parodontitis | 1=Ja, 2=Nein |
+| bop | Bleeding on probe (World Definition, Tonetti et al. 2018) | 1=None, 2 $\geq$ 10%, 3 $\geq$ 10% |
+| male (sex) | Geschlecht | 1=Female, 2=Male |
+| age | Alter | Jahre |
+| edu | Bildungsniveau | 1$\leq$ 9th grade/Missing, 2=9–11 grade/High school, 3$\geq$ Some college |
+| smk | Rauchstatus | 1=Never, 2=Former, 3=Current |
+| smk2 | Rauchstatus (vereinfacht) | 1=Never, 2=Former/Current |
+| alcg | Alkoholkonsum | Gramm pro Tag |
+| Height | Körpergröße | cm |
+| Weight | Körpergewicht | kg |
+| bmi | Body Mass Index | kg/m² |
+| bmi_cat | BMI-Kategorien | 1$\leq$ 18.5, 2=18.5–25, 3=25–30, 4 $\geq$ 30 |
+| wc | Taillenumfang | cm |
+| wc_cat | Taillenumfang – Kategorien | 1=m:<102,f:<88; 2=m:$\geq$ 102, f:$\geq$ 88 |
+| diab | Diabetes | Ja, Nein |
+| mortstat | Mortalität | 1=Lebend, 0=Verstorben |
+| perm_exm | Personenmonate zwischen Untersuchung und Versterben/Zensierung |  |
