@@ -60,7 +60,7 @@ How does the level of measurement (scale level) of the variable `number of teeth
 | **Variable** | **Nature** | **SPSS Measure** | **Comment** |
 |---------------|--------------------|---------------|-----------------------|
 | BMI | Continuous numeric | Scale | Can take decimal values |
-| Number of teeth | Discrete numeric (integer count) | Scale | Only integer values, but still numeric |
+| Number of teeth | Discrete numeric | Scale | Only integer values, but still numeric |
 
 </details>
 
